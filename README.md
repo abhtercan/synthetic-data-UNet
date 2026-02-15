@@ -19,7 +19,7 @@ The model is a standard UNet with two downsampling/upsampling blocks and a bottl
 
 ## Training Details
 
-The model is trained using a combination of Binary Cross Entropy (BCE) and Dice Loss. BCE ensures stable pixel-wise learning, while Dice Loss maximizes mask overlap and improves detection of small defects. The optimizer is Adam with a learning rate of 1e-4. The model is trained in batches of 8 images for 10–20 epochs, depending on dataset size, and can run on CPU or GPU.
+The model is trained using a combination of Binary Cross Entropy (BCE) and Dice Loss. BCE ensures stable pixel-wise learning, while Dice Loss maximizes mask overlap and improves detection of small defects. The optimizer is Adam with a learning rate of 1e-4. The model is trained in batches of 8 images for 10 epochs, depending on dataset size, and can run on CPU or GPU.
 
 ## Results
 
